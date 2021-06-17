@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    font: normal 16px Arial, Helvetica, sand-serif;
+    color:#fff;
+    background: black;
+  }
+
+  #particles-js{
+    background:black;
+    height:600px;
+  }
+
+  form{
+    background:white;
+    opacity:0.9;
+    padding:2em;
+    border:#ccc 2px solid;
+    position:absolute;
+    top: 150px;
+    left:350px;
+    color:black;
+    font-family: Kanit;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  #login input[type="text"], #login input[type="password"]{
+    padding:7px;
+    margin-bottom:10px;
+    border:1px #ccc solid;
+  }
