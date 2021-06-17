@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+html,body{
+	position:relative;
+	height:100%;}
+	
+	body{
+    font-family: Kanit;
+		margin:0px;
+		padding:0px;
+		font-family:montserrat,sans-serif;
+		background-color:black;
+		color: white;}
+		.swiper-slide{
+			width:250px !important;
+			 }
+	
+		.slider-box{
+			margin:20px;
+			height:350px;
+			width:250px;
+			position:relative;
+			background-color:#FFFFFF;
+			border-radius:5px;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			border:1px solid rgba(187,187,187,0.40);
+			}
+			.slider-box a{
+				text-decoration:none;
+				text-align:center;}
+				.img-box{
+					height:170px;
+					}
+					.img-box img{
+						height:auto;
+						max-width:100%;
+						max-height:100%;}
+						.time{
+							position:absolute;
+							top:0px;
+							right:20px;
+							color:#f16007;}
+							.detail{
+								display:flex;
+								flex-direction:column;
+								align-items:center;
+								box-sizing:border-box;
+								font-size:13px;
+								line-height:35px;}
+								.price{
+									color:#FFFFFF;
+									background-color:#ff555b;
+									 line-height:20px;}
+									 .cart{
+										 position:absolute;
+										 bottom:0px;
+										 height:45px;
+										 background-color:#ff696e;
+										 width:100%;
+										 display:flex;
+										 justify-content:center;
+										 align-items:center;}
+										 .cart a{
+											 color:#FFFFFF;}
+											 .slider-box:hover{
+												 box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+												 }
+												 .slider-box:hover .img-box img{
+													 transform:scale(1.07);
+													 transition:all ease 0.3s;}
+													 .cart:hover{
+														 transform:scale(1.1);
+														 background-color:#fe9048;
+							box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+							transition:all ease 0.1s;}
+							
+							
+							
+							
+							.heading{
+								display:flex;
+								justify-content:center;
+							}
+							.heading h1{
+								border-left:2px solid #000000;
+								Border-right:2px solid #000000;
+								background-color:#f05656;
+								text-shadow:2px 2px 12px rgba(69,66,66,0.3);
+								padding:0px 10px;
+								color:#FFFFFF;
+								margin:20px;
+								font-size:30px;
+								font-family:calibri;}
+                                .align {
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                  }
+                                  
+                                  /* helpers/icon.css */
+                                  
+                                  .icon {
+                                    font-size: 2rem;
+                                  }
+                                  
+                                  /* layout/base.css */
+                                  
+                                  html {
+                                    height: 100%;
+                                  }
+                                  
+                                  body {
+                                    color: #888;
+                                    font-family: sans-serif;
+                                    line-height: 1.5;
+                                    margin: 0;
+                                    min-height: 100%;
+                                  }
+                                  
+                                  /* modules/headline.css */
+                                  
+                                  h3 {
+                                    font-size: 1.5rem;
+                                    margin-top: 1.5em;
+                                    color: #fff;
+                                    margin-bottom: 1.5em;
+                                  }
+                                  h4 {
+                                    font-size: 1.5rem;
+                                    margin-top: 1.5em;
+                                    color: red;
+                                    margin-bottom: 1.5em;
+                                  }
+                                  
+                                  /* modules/paragraph.css */
+                                  
+                                  p {
+                                    margin-bottom: 1.5em;
+                                    margin-top: 1.5em;
+                                  }
+                                  
+                                  /* modules/form.css */
+                                  
+                                  input {
+                                    font: inherit;
+                                    outline: 0;
+                                  }
+                                  
+                                  .form__field {
+                                    position: relative;
+                                  }
+                                  
+                                  .form__field .icon {
+                                    position: absolute;
+                                    right: 1em;
+                                    top: 50%;
+                                    transform: translateY(-50%)
+                                  }
+                                  
+                                  .form__input {
+                                    border-radius: 0.25em;
+                                    border-style: solid;
+                                    border-width: 2px;
+                                    font-size: 1.5rem;
+                                    padding: 0.5em 4em 0.5em 2em;
+                                  }
+                                  
+                                  .form__input:valid {
+                                    border-color: forestgreen;
+                                  }
+                                  
+                                  .form__input:valid + .icon::after {
+                                    content: '😃';
+                                  }
+                                  
+                                  .form__input:invalid {
+                                    border-color: firebrick;
+                                  }
+                                  
+                                  .form__input:invalid + .icon::after {
+                                    content: '🙁';
+                                  }
+                                              .btn{
+                                    color: #fff;
+                                    border: none;
+                                    margin: 20px;
+                                    padding: 20px 30px;
+                                    font-size: 15px;
+                                    font-weight: 600;
+                                    text-transform: uppercase;
+                                    letter-spacing: 4px;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    transition: 0.5s;
+                                    transition-property: box-shadow;
+                                  }
+                                  
+                                  .btn-primary{
+                                    background: #50A7FF;
+                                    box-shadow: 0 0 25px #50A7FF;
+                                  }
+                                  
+                                  .btn-primary:hover{
+                                    box-shadow: 0 0 5px #50A7FF,
+                                                0 0 25px #50A7FF,
+                                                0 0 50px #50A7FF,
+                                                0 0 100px #50A7FF;
+                                  }
+                                  
+                                  .btn-success{
+                                    background: #03D29F;
+                                    box-shadow: 0 0 25px #03D29F;
+                                  }
+                                  
+                                  .btn-success:hover{
+                                    box-shadow: 0 0 5px #03D29F,
+                                                0 0 25px #03D29F,
+                                                0 0 50px #03D29F,
+                                                0 0 100px #03D29F;
+                                  }
+                                  
+                                  .btn-danger{
+                                    background: #FF7675;
+                                    box-shadow: 0 0 25px #FF7675;
+                                  }
+                                  
+                                  .btn-danger:hover{
+                                    box-shadow: 0 0 5px #FF7675,
+                                                0 0 25px #FF7675,
+                                                0 0 50px #FF7675,
+                                                0 0 100px #FF7675;
+                                  }
+                                  
+                                  .btn-warning{
+                                    background: #F0DF51;
+                                    box-shadow: 0 0 25px #F0DF51;
+                                  }
+                                  
+                                  .btn-warning:hover{
+                                    box-shadow: 0 0 5px #F0DF51,
+                                                0 0 25px #F0DF51,
+                                                0 0 50px #F0DF51,
+                                                0 0 100px #F0DF51;
+                                  }
+                                  .container  {
+                                               margin-top: 100px;
+                                               border: 1px solid #9C9C9C;
+                                               background-color: #000;
+                                               padding:30px;
+                                               color: #fff;
+                                           }    
+                                           .container h2{
+                                              margin-bottom:25px;
+                                           }
+                                           .text-info {
+                                              color: #fff !important;
+                                          }
